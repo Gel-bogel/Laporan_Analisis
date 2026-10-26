@@ -1,0 +1,27 @@
+# Tema aplikasi — dibaca otomatis bila `streamlit run app.py` dijalankan dari folder proyek ini.
+# Warna yang sama ada di config.py (UI_COLORS) untuk CSS kustom di modules/ui.py.
+[theme]
+base = "light"
+primaryColor = "#0072BC"
+backgroundColor = "#F8F9FA"
+secondaryBackgroundColor = "#EEF2F6"
+textColor = "#1B2B41"
+linkColor = "#0072BC"
+borderColor = "#E3E8EF"
+showWidgetBorder = true
+baseRadius = "10px"
+buttonRadius = "10px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+dataframeHeaderBackgroundColor = "#EEF4FA"
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#0E2742"
+secondaryBackgroundColor = "#14334F"
+textColor = "#DCE6F2"
+primaryColor = "#00A2E8"
+borderColor = "#1B4166"
+
+[client]
+toolbarMode = "minimal"
