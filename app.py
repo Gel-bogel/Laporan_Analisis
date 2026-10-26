@@ -264,11 +264,11 @@ def sidebar_status():
 # =========================================================================== MENU 1
 UPLOAD_CARDS = {
     # kunci: (ikon, warna ikon, judul, keterangan, format)
-    "report": ("file", "blue", "Laporan Bulanan", "CR_LAP_309_PUSATNEW · boleh lebih dari satu bulan",
+    "report": ("file", "blue", "Laporan Bulanan 309", "LAP_309",
                ("pdf", "xlsx", "xls")),
-    "master": ("sheet", "teal", "Master Rekap DATA USAHA", "AGA & PP UP3 MDU · sheet KWH-MDU", ("xlsx", "xls")),
-    "db": ("database", "indigo", "Database Klaster", "I3I2B2 · sheet DB I & DB B", ("xlsx", "xls")),
-    "ap2t": ("receipt", "amber", "Transaksi AP2T", "Medan Utara · Laporan detil tarif I3, I4 & B3", ("xls", "xlsx")),
+    "master": ("sheet", "teal", "Database Master Rekap DATA USAHA", "AGA & PP UP3 MDU · sheet KWH-MDU", ("xlsx", "xls")),
+    "db": ("database", "indigo", "Database Klaster Industri-Bisnis", "I3I2B2 · sheet DB I & DB B", ("xlsx", "xls")),
+    "ap2t": ("receipt", "amber", "Transaksi AP2T", "Medan Utara · Laporan detil tarif I2, I3 & B2", ("xls", "xlsx")),
 }
 
 
